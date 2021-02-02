@@ -80,3 +80,8 @@
     background-position-x: 1000px;
   }
 }
+@media only screen and (max-width: 710px) {
+  #projects {
+    margin-top: 20%;
+  }
+}
