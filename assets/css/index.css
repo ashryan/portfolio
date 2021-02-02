@@ -1,5 +1,6 @@
 * {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .nav-wrapper {
@@ -56,7 +57,7 @@
   height: 100px;
   background: url("../images/wave.png");
   background-size: 1000px 100px;
-  animation: animate 20s linear infinite;
+  animation: animate 15s linear infinite;
   z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
