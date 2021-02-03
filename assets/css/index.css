@@ -6,6 +6,9 @@
 .nav-wrapper {
   background: #81d4fa;
 }
+.nav-wrapper .nav-li .nav-a {
+  color: #212121;
+}
 
 #main {
   width: 100%;
@@ -13,12 +16,14 @@
   text-align: center;
 }
 #main .main-h1 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 40px;
   margin-top: 5%;
+  font-weight: bold;
 }
 #main #name {
-  color: #2962ff;
+  color: #304ffe;
+  font-weight: bolder;
 }
 #main .btn-large {
   background-color: #212121;
@@ -31,17 +36,13 @@
 #main .btn-large:hover {
   padding-top: 0.5%;
 }
-#main .img-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-bottom: 9%;
+#main .img-wrapper {
+  margin-top: 5%;
 }
-#main .img-container img {
-  height: 30%;
-  width: 30%;
+#main .img-wrapper img {
+  height: 100px;
+  width: 100px;
 }
-
 .bg-animation {
   position: relative;
   width: 100%;
@@ -57,7 +58,7 @@
   height: 100px;
   background: url("../images/wave.png");
   background-size: 1000px 100px;
-  animation: animate 15s linear infinite;
+  animation: animate 20s linear infinite;
   z-index: 1000;
   opacity: 1;
   animation-delay: 0s;
@@ -70,7 +71,7 @@
 }
 #projects h2 {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @keyframes animate {
@@ -84,5 +85,9 @@
 @media only screen and (max-width: 710px) {
   #projects {
     margin-top: 20%;
+  }
+
+  .img-wrapper .row div {
+    margin-left: 20%;
   }
 }

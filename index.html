@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ash Ryan - Portfolio</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     
@@ -13,6 +14,7 @@
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -21,8 +23,8 @@
             <div class="nav-wrapper">
             <ul id="nav-mobile" class="right">
                 <li class="nav-li"><a class ="nav-a" href="#">Home</a></li>
-                <li class="nav-li" ><a href="#">Projects</a></li>
-                <li class="nav-li"><a href="#">About Me</a></li>
+                <li class="nav-li" ><a class="nav-a" href="#">Projects</a></li>
+                <li class="nav-li"><a class="nav-a" href="#">About Me</a></li>
             </ul>
             </div>
         </nav>
@@ -37,11 +39,23 @@
 
             <a href="#projects" class="waves-effect waves-light btn-large">View My Work<i class="fas fa-laptop-code"></i> </a>
 
-            <div class="img-container">
-                <img id="ashlap" src="assets/images/ashjslaptop.png">
-                
-             </div>   
+            <div class="img-wrapper container">
+                    <div class="row">
+                        <div class="col s4"></div>
+                        <div class="col s2">
+                        <img src="assets/images/gh.png"> 
+                        </div>
+                        <div class="col s2">
+                        <img src="assets/images/7.png">
+                        </div>
+                        <div class="col s4"></div>
+                </div>
+            </div>
         </main>
+
+
+    
+
     </section>
 
     <section id="projects">
@@ -69,7 +83,7 @@
                 <div class="col s3">
                     <div class="card large">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="images/office.jpg">
+                            <img class="activator" src="assets/images/office.jpg">
                             </div>
                             <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
