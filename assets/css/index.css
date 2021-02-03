@@ -43,6 +43,11 @@
   height: 100px;
   width: 100px;
 }
+#main .img-wrapper img:hover {
+  cursor: pointer;
+  margin-right: 10%;
+}
+
 .bg-animation {
   position: relative;
   width: 100%;
@@ -85,9 +90,5 @@
 @media only screen and (max-width: 710px) {
   #projects {
     margin-top: 20%;
-  }
-
-  .img-wrapper .row div {
-    margin-left: 20%;
   }
 }
