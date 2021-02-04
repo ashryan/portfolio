@@ -21,6 +21,11 @@
   margin-top: 5%;
   font-weight: bold;
 }
+#main .main-p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin-top: 4%;
+}
 #main #name {
   color: #304ffe;
   font-weight: bolder;
@@ -70,8 +75,12 @@
   bottom: 0;
 }
 
+#navbar, .nav-wrapper {
+  z-index: 1001;
+}
+
 #projects {
-  margin-top: 10%;
+  margin-top: 3%;
   height: 90vh;
 }
 #projects h2 {
