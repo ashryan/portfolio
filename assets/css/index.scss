@@ -1,0 +1,199 @@
+$color-prm: #212121;
+$color-sec: #304ffe;
+$color-ter: white;
+$font-L:32px;
+$font-M:24px;
+$font-XL:40px;
+$font-prm:'Roboto', sans-serif;
+
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+.nav-wrapper {
+    background:#81d4fa;
+    z-index: 999;
+
+    .nav-li {
+
+        .nav-a{ 
+        color:#212121;
+
+        }
+
+    }
+
+}
+
+
+
+#main {
+    width: 100%;
+    height:100vh;
+    text-align:center;
+    
+
+    
+
+
+    .main-h1 {
+        font-family: $font-prm;
+        font-size: $font-XL;
+        margin-top: 5%;
+        font-weight: bold;
+        
+    }
+
+    .main-p {
+        font-family: $font-prm;
+        font-size: $font-M;
+        margin-top: 4%;
+    }
+
+    #name {
+        color:$color-sec;
+        font-weight: bolder;
+    }
+
+    .btn-large {
+        background-color: #212121;
+        border-radius:15px;
+        margin-top: 4%;
+
+        i {
+            margin-left:10px;
+        }
+    }
+
+    .btn-large:hover {
+        padding-top:0.5%;
+       
+    }
+
+
+    .img-wrapper {
+
+        margin-top: 5%;
+
+        img {
+                
+                height:100px;
+                width:100px;
+            }
+
+            img:hover {
+
+                cursor: pointer;
+                margin-right: 10%;
+                
+            }
+        }
+    }
+
+ 
+
+
+.bg-animation {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    background: #81d4fa;
+    overflow: hidden;
+
+    .bg-div {
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:100%;
+        height: 100px;
+        background: url("../images/wave.png");
+        background-size: 1000px 100px;
+        animation: animate 20s linear infinite;
+        z-index: 99;
+        opacity:1;
+        animation-delay: 0s;
+        bottom:0;
+     }
+
+}
+
+#projects {
+    height: 100vh;
+
+    h2 {
+        text-align: center;
+        font-family: $font-prm;
+        padding-top:4%;
+        padding-bottom: 2%;
+    }
+}
+
+
+#about-me {
+    height: 100vh;
+    background-color: #81d4fa;
+  
+  
+    #about-me-h2 {
+      text-align: center;
+      padding-top: 5%;
+      font-family: $font-prm;
+      
+    }
+
+    p {
+        text-align: center;
+        margin-top: 1%;
+        font-size: $font-M;
+    }
+
+    ul {
+        text-align: center;
+        padding-top: 1%;
+        font-size: $font-M;
+    }
+
+  }
+
+  .input-field label {
+color: black !important; 
+}
+
+#submit {
+    background: #212121;
+    border-radius: 15px;
+}
+
+#contact-form {
+    background: #80d8ff;
+    margin-top: 0.25%;
+    padding:1%;
+
+}
+
+
+@keyframes animate 
+{
+    0%
+    {
+        background-position-x: 0;
+    }
+    100% {
+        background-position-x: 1000px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    #projects {
+        margin-top:20%;
+    }
+
+    .main-p {
+        display: none;
+    }
+
+    
+}
