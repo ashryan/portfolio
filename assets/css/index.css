@@ -93,21 +93,22 @@
   padding-top: 4%;
   padding-bottom: 2%;
 }
-
-#tech-icon {
-  padding-right: 10px;
-}
-
-.icon-blue {
+#projects .icon-blue {
   color: #61dbfb;
+  margin-right: 5px;
 }
-
-.icon-yellow {
+#projects .icon-yellow {
   color: #f0db4f;
 }
-
-h5 {
+#projects .card-center {
   text-align: center;
+  padding: 0;
+}
+#projects .card-link {
+  padding-bottom: 0;
+}
+#projects p {
+  padding-bottom: 10px;
 }
 
 #about-me {
