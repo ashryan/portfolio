@@ -87,7 +87,7 @@
 #projects {
   height: 100vh;
 }
-#projects h2 {
+#projects h2, #projects h5 {
   text-align: center;
   font-family: "Roboto", sans-serif;
   padding-top: 4%;
