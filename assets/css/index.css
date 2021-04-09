@@ -99,6 +99,15 @@
 }
 #projects .icon-yellow {
   color: #f0db4f;
+  margin-right: 5px;
+}
+#projects .icon-sass {
+  color: #c69;
+  margin-right: 5px;
+}
+#projects .icon-html {
+  color: #E44D26;
+  margin-right: 5px;
 }
 #projects .card-center {
   text-align: center;
